@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/labeled_text_edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:alpha="0.9"
+    android:background="#607D8B"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <!--Address LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--Address label-->
+        <TextView
+            android:id="@+id/geocoded_address_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textColor="@color/colorWhite"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <!--Address Text-->
+        <TextView
+            android:id="@+id/geocoded_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+    <!--Date/Time LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--Date label-->
+        <TextView
+            android:id="@+id/date_date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/date_label"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <!--Date text -->
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+        <!--Time label-->
+        <TextView
+            android:id="@+id/time_text_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/time_label"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <!--Time text-->
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <!--Comments LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--Comments label-->
+        <TextView
+            android:id="@+id/comment_text_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/comment"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <!--Comments edittext-->
+        <EditText
+            android:id="@+id/comment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonChoose"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:contentDescription="@string/image_view_content_description"
+        android:src="@drawable/attachfile" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="146dp"
+        android:layout_height="141dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/image_view_content_description" />
+
+    <!--Submit button-->
+    <Button
+        android:id="@+id/submit_report"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/submit_report"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>
+
+
+    <!--Incident type text--><!--<TextView android:id="@+id/type"--><!--android:layout_width="match_parent" android:layout_height="wrap_content"--><!--android:layout_weight="1"--><!--android:text="@string/initial_text"--><!--android:freezesText="true"--><!--android:textColor="@color/colorWhite"--><!--android:textSize="16sp" />-->
+
+
+    <!--Incident type spinner--><!--<Spinner--><!--android:layout_width="260dp"--><!--android:layout_height="wrap_content"--><!--android:id="@+id/spinner"--><!--android:textColor="@color/colorWhite"--><!--android:clickable="false"--><!--android:backgroundTint="@color/colorWhite"--><!--android:layout_marginLeft="10dp" />-->

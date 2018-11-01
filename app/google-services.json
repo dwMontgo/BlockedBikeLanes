@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "794687203184",
+    "firebase_url": "https://squawker-20919.firebaseio.com",
+    "project_id": "squawker-20919",
+    "storage_bucket": "squawker-20919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794687203184:android:049ade325d273d54",
+        "android_client_info": {
+          "package_name": "com.example.android.blockedbikelanes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794687203184-60034b4j3eeoinqk3iro8bb98b0ldjtd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.blockedbikelanes",
+            "certificate_hash": "75ca2a0d86ca91fcb2240297db42a4c7df2be3d6"
+          }
+        },
+        {
+          "client_id": "794687203184-90f0ila1o1j2tjltuc8nnp7lbjsfdgqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLC9mx_N2nDEf3UCkOyP0NZrW3dhesDxY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794687203184-90f0ila1o1j2tjltuc8nnp7lbjsfdgqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

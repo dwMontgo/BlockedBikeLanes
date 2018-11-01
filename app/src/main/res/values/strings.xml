@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BlockedBikeLanes</string>
+    <string name="title_activity_maps">Blocked Bike Lanes</string>
+
+    <string name="msg">Please fill in fields below, then place marker on map</string>
+    <string name="submit_report">Submit</string>
+    <string name="submit_address">Address</string>
+    <string name="report_incident">Report incident</string>
+    <string name="hide">Hide </string>
+    <string name="comment">Comments:</string>
+    <string name="address">Address:</string>
+    <string name="date_label">Date:</string>
+    <string name="time_label">Time:</string>
+
+    <!--<string name="select_image">Select Image</string>-->
+    <string name="uploaded_toast">File Uploaded</string>
+    <string name="marker_toast">Please place marker by tapping location of incident"</string>
+
+    <string name="image_view_content_description">Image of incident</string>
+    <string name="uploading">Uploading</string>
+    <string name="uploaded">Uploaded</string>
+    <string name="percent">%..</string>
+
+    <string name="action_about">About</string>
+    <string name="about_title">About This App</string>
+    <string name="about_info">This app was created as the capstone project for the Udacity Android Developer Nanodegree program</string>
+</resources>
+
+
